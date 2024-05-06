@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Assignment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+  <!--Nav bar-->
+  <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top">
+
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+
+        <!-- Logo -->
+        <li class="nav-item">
+          <a class="navbar-brand">Studio Fit</a>
+        </li>
+
+        <!-- Links -->
+        <li class="nav-item">
+          <a class="nav-link" href="#Classes">Classes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Plans">Plans</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Instructors">Instructors</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  
+  </nav>
+  
+  <div class="container-fluid mt-5"></div>
+
+  <!--intro-->
+  <div class="container-fluid m-0 my-auto">
+    <div class="row bg-light">
+      <div class="col-sm-4 m-0">
+        <img class="img-fluid" src="StudioFit.jpg" alt="Studio Fit">
+      </div>
+      <div class="col-sm-7">
+        <br>
+        <h1>Welcome to Studio Fit
+          <br>
+          <small>
+            your fitness destination!
+          </small>
+        </h2>
+        <br>
+        <p>Discover classes tailored to all levels. Join our vibrant community for expert-led sessions in our state-of-the-art facility.</p>
+        <p>Start your fitness journey with us today!</p>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+      
+</div>
+
+<!--Classes schedule-->
+<div id="Classes">
+<div class="container mt-5">
+  <h4>Classes</h4>
+  <table class="table">
+    <thead class="table-light">
+      <tr>
+        <th></th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="table-light">8am</td>
+        <td>Pilates</td>
+        <td>Stretching</td>
+        <td>Pilates</td>
+        <td>Stretching</td>
+        <td>Yoga</td>
+        <td>Yoga</td>
+      </tr>      
+      <tr>
+        <td class="table-light">9am</td>
+        <td>Hiit Dance</td>
+        <td>Aerobics</td>
+        <td>Hiit Dance</td>
+        <td>Aerobics</td>
+        <td>Zumba</td>
+        <td>Dance for kids</td>
+      </tr> 
+      <tr>
+        <td class="table-light">10am</td>
+        <td>Aerobics</td>
+        <td>Pilates</td>
+        <td>Aerobics</td>
+        <td>Pilates</td>
+        <td>Ludic Dance<br>(all ages)</td>
+        <td>Dance for<br>kids</td>
+      </tr> 
+      <tr>
+        <td class="table-light">11am</td>
+        <td>Zumba</td>
+        <td></td>
+        <td>Zumba</td>
+        <td></td>
+        <td>Hiit Dance</td>
+        <td>Aerobics</td>
+      </tr> 
+      <tr>
+        <td class="table-light">12pm</td>
+        <td>Yoga</td>
+        <td>Pilates</td>
+        <td>Yoga</td>
+        <td>Pilates</td>
+        <td>Aerobics</td>
+        <td class="table-danger">Closed</td>
+      </tr> 
+      <tr>
+        <td class="table-light">1pm</td>
+        <td>Stretching</td>
+        <td>Stretching</td>
+        <td>Stretching</td>
+        <td>Stretching</td>
+        <td>Stretching</td>
+        <td class="table-danger">Closed</td>
+      </tr>
+      <tr>
+        <td class="table-light">2pm</td>
+        <td></td>
+        <td>Aerobics</td>
+        <td></td>
+        <td>Aerobics</td>
+        <td>Pilates</td>
+        <td class="table-danger">Closed</td>
+      </tr>
+      <tr>
+        <td class="table-light">3pm</td>
+        <td>Gymnastics</td>
+        <td>Zumba</td>
+        <td>Gymnastics</td>
+        <td>Zumba</td>
+        <td>Yoga</td>
+        <td class="table-danger">Closed</td>
+      </tr>
+      <tr>
+        <td class="table-light">4pm</td>
+        <td>Gymnastics<br>for Kids</td>
+        <td>Ludic Dance<br>(all ages)</td>
+        <td>Gymnastics<br>for Kids</td>
+        <td>Ludic Dance<br>(all ages)</td>
+        <td>Gymnastics<br>for Kids</td>
+        <td class="table-danger">Closed</td>
+      </tr>
+      <tr>
+        <td class="table-light">5pm</td>
+        <td>Yoga</td>
+        <td>Pilates</td>
+        <td>Yoga</td>
+        <td>Pilates</td>
+        <td>Aerobics</td>
+        <td class="table-danger">Closed</td>
+      </tr>
+      <tr>
+        <td class="table-light">6pm</td>
+        <td>Meditation</td>
+        <td>Ludic Dance<br>(all ages)</td>
+        <td>Meditation</td>
+        <td>Ludic Dance<br>(all ages)</td>
+        <td>Yoga</td>
+        <td class="table-danger">Closed</td>
+      </tr>
+      <tr>
+        <td class="table-light">7pm</td>
+        <td>Pilates</td>
+        <td>Aerobics</td>
+        <td>Pilates</td>
+        <td>Aerobics</td>
+        <td>Pilates</td>
+        <td class="table-danger">Closed</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+  <!--Instructors-->
+  <div id="Instructors">
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col sm-1"></div>
+      <div class="col"></div>
+        <h4>Our Instructors</h4>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col sm-1"></div>
+
+      <!--Instructor 1-->
+      <div class="col sm-4">
+        <img src="Instructor1.jpg" class="rounded-circle" alt="Instructor 1">
+        <h6 class="text-danger pt-4" >John Weight</h6>
+        <p>John guides clients with personalized programs, fostering growth and maximizing potential through expert guidance and motivation.</p>
+      </div>
+
+      <div class="col sm-1"></div>
+
+      <!--Instructor 2-->
+      <div class="col sm-4">
+        <img src="Instructor2.jpg" class="rounded-circle" alt="Instructor 2">
+        <h6 class="text-danger pt-4">Beth Balance</h6>
+        <p>Beth cultivates harmony of body and mind, guiding clients through personalized practices to enhance strength, flexibility, and well-being with expertise and warmth.</p>
+      </div>
+
+      <div class="col sm-1"></div>
+    </div>
+  </div>
+
+
+  <!--Plans-->
+  <div id="Plans">
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col sm-1"></div>
+      <div class="col"></div>
+        <h4>Our Plans</h4>
+      </div>
+    </div>
+  
+  <div class="container mt-5">
+  <div class="row">
+  
+    <!--Plan 1-->
+    <div class="col sm-4">
+      <div class="card" style="width:200px">
+        <div class="card-body">
+          <h4 class="card-title">Day Pass</h4>
+          <p class="card-text">Pass for up to 3 activities per day. Up to 30 days</p>
+          <br>
+          <h4 class="card-text">£15</h4>
+          <a href="#" class="btn btn-danger">Join now</a>
+        </div>
+      </div>
+    </div>
+  
+    <!--Plan 2-->
+    <div class="col sm-4">
+      <div class="card" style="width:200px">
+        <div class="card-body">
+          <h4 class="card-title">4 Sessions a month</h4>
+          <p class="card-text">4 sessions at your choice to be taken within 30 days</p>
+          <h4 class="card-text">£40</h4>
+          <a href="#" class="btn btn-danger">Join now</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Plan 3-->
+    <div class="col sm-4">
+      <div class="card" style="width:200px">
+        <div class="card-body">
+          <h4 class="card-title">8 Sessions a month</h4>
+          <p class="card-text">8 sessions at your choice to be taken within 30 days</p>
+          <h4 class="card-text">£70</h4>
+          <a href="#" class="btn btn-danger">Join now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+
+  <!--Testimonials-->
+  <div id="Testimonials">
+  <div class="container mt-5">
+  <div class="row mt-5">
+    <div class="col sm-1"></div>
+    <div class="col"></div>
+      <h4>Testimonials</h4>
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="row mt-4">
+
+    <!--Testimonial 1-->
+    <div class="col sm-4">
+        <p>
+        "Studio Fit has truly transformed my fitness journey, thanks to Beth's exceptional guidance. Her personalized Pilates and yoga classes have not only improved my strength and flexibility but have also brought a sense of balance and peace to my life."
+        </p>
+        <footer class="blockquote-footer">Karen J., 27</footer>
+    </div>
+
+    <!--Testimonial 2-->
+    <div class="col sm-4">
+        <p>
+          "Studio Fit has been transformative, all thanks to John's coaching. His personalized approach and motivation have pushed me to achieve goals I never thought possible. Highly recommend!"
+        </p>
+        <footer class="blockquote-footer">Peter H., 32</footer>
+    </div>
+
+    <!--Testimonial 3-->
+    <div class="col sm-4">
+          <p>
+            "Studio Fit rocks, especially with Beth leading the way! Her Pilates and yoga classes are not just about fitness—they're like a weekly recharge for body and soul. With her laid-back style and killer playlists, I've never felt better. Thanks, Beth and Studio Fit!"
+          </p>
+          <footer class="blockquote-footer">Maeve, 40</footer>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!--Contact-->
+  <div id="Contact">
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col sm-1"></div>
+      <div class="col"></div>
+        <h4>Contact</h4>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row mt-4">
+        <div class="col sm-1"></div>
+        <div class="col"></div>
+          <p>Phone: +44 1234 56789</p>
+          <p>E-mail: contact@studiofit.com</p>
+          <p>Address: 1 Goodhealt Lane, London</p>
+          <br>
+          <button type="button" class="btn text-white bg-danger" data-bs-toggle="modal" style="width:max-content" data-bs-target="#Message">
+            Send a message
+          </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Modal -->
+  <div class="modal" id="Message">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Send a message</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <input class="form-control me-2" type="text" placeholder="Type here">
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Send</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+<!--Footer-->
+<div class="footer">
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <span class="border border-top-0"></span>
+      <div class="col m-3">
+        <div class="mx-auto" style="width:max-content">
+          <p><small>Mockup page by Luiza Bravo 2024</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
